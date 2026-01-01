@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to left, #8d5cac, #272626);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  height: 70vh;
+  width: 60vw;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+.social {
+  background-color: #1d2951;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.social {
+  background-color: #1d2951;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.upper {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+
+  justify-content: center;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  font-size: 80;
+  font-family: sans-serif;
+  color: white;
+}
+.para {
+  display: flex;
+  text-align: center;
+
+  margin-top: 0.6rem;
+  height: auto;
+  width: auto;
+  margin-left: 0.9rem;
+  padding: 0.5rem;
+  color: aliceblue;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+}
+.lower {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  justify-items: center;
+}
+.button {
+  height: 2rem;
+  width: 100%;
+  margin: 0.4rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.button:hover {
+  transform: translateY(1.5px);
+  border: white;
+}
+.login {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.login h2 {
+  color: #1a2b48;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+}
+
+.login p {
+  color: #666;
+  margin-bottom: 2rem; /* More space  */
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+
+.ingroup input {
+  width: 100%;
+  padding: 2rem 1.1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  min-width: 270px;
+}
+
+.loginbutton {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.8rem;
+  background-color: #0866ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.login input {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.6rem;
+  margin-bottom: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.loginbutton:hover {
+  transform: translateY(1.5px);
+}

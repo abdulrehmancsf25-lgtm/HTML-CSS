@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application for Permission for Tour</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      h1 {
+        text-decoration: underline;
+      }
+      fieldset {
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+      legend {
+        font-weight: bold;
+      }
+      .note {
+        font-style: italic;
+        font-size: 0.9em;
+        margin-bottom: 10px;
+      }
+      table {
+        width: 100%;
+      }
+      td {
+        padding: 5px;
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="number"],
+      select,
+      textarea {
+        width: 300px;
+        padding: 5px;
+      }
+      textarea {
+        height: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Application for permission for tour</h1>
+
+   
+
+   
+        <table>
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter name here"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="address">Address:</label></td>
+            <td>
+              <input
+                type="text"
+                id="address"
+                name="address"
+                placeholder="Enter address here"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter email here"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="phone">Phone Number:</label></td>
+            <td>
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                placeholder="Enter phone number"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="id">ID:</label></td>
+            <td>
+              <input
+                type="text"
+                id="id"
+                name="id"
+                placeholder="Enter ID here"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Gender:</td>
+            <td>
+              <input type="radio" id="male" name="gender" value="Male" />
+              <label for="male">Male</label><br />
+              <input type="radio" id="female" name="gender" value="Female" />
+              <label for="female">Female</label><br />
+              <input type="radio" id="other" name="gender" value="Other" />
+              <label for="other">Other</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="date">Date of tour:</label></td>
+            <td><input type="date" id="date" name="tour_date" /></td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <fieldset>
+        <legend>Check All That Apply</legend>
+        <input
+          type="checkbox"
+          id="skills"
+          name="check_apply"
+          value="Management Skills"
+        />
+        <label for="skills">I have Management Skills</label><br />
+        <input type="checkbox" id="bus" name="check_apply" value="Bus" />
+        <label for="bus">Bus for Travelling</label><br />
+        <input type="checkbox" id="van" name="check_apply" value="Van" />
+        <label for="van">I own Van</label><br />
+        <input
+          type="checkbox"
+          id="students"
+          name="check_apply"
+          value="50 Students"
+        />
+        <label for="students">I have 50 Students with me</label><br />
+        <input
+          type="checkbox"
+          id="parents"
+          name="check_apply"
+          value="Parents Allow"
+        />
+        <label for="parents">My parents allow me</label><br />
+        <input
+          type="checkbox"
+          id="holiday"
+          name="check_apply"
+          value="Holiday"
+        />
+        <label for="holiday">Tour will be on Holiday</label>
+      </fieldset>
+
+      <fieldset>
+        <label for="batch">Batch:</label>
+        <select id="batch" name="batch" style="width: auto; margin-right: 20px">
+          <option value="F21">F21</option>
+          <option value="F20">F20</option>
+          <option value="F19">F19</option>
+        </select>
+
+        <label for="edu_level">Education Level Completed:</label>
+        <select id="edu_level" name="edu_level" style="width: auto">
+          <option value="University">University</option>
+          <option value="College">College</option>
+          <option value="High School">High School</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Description Section</legend>
+
+        <label for="desc_tour">Description of Tour</label><br />
+        <textarea
+          id="desc_tour"
+          name="desc_tour"
+          placeholder="Enter Text here"
+        ></textarea
+        ><br /><br />
+
+        <label for="refs">Please upload contact details for 2 references</label
+        ><br />
+        <textarea
+          id="refs"
+          name="references"
+          placeholder="Enter Text here"
+        ></textarea>
+      </fieldset>
+
+      <input type="submit" value="Send your application" />
+    </form>
+ </body></html>
+
+
+       
+       
+
+     
+     
+
+  
